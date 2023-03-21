@@ -1,4 +1,5 @@
 
+/* Universal */
 
 * {
     margin: 0;
@@ -7,8 +8,175 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 300rem;
+    width: 100%;
+}
+
+
+
+/* Header */
+
+header {
+    height: 1.5%;
+    background-color: aquamarine;
+}
+
+
+
+/* Main */
+
 main {
+    height: 81%;
     display: flex;
     flex-direction: column;
 
+}
+
+
+/* -Sign Up Section- */
+
+.sign-up {
+    height: 15%;
+    background-color: #E0D2B7;
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-social-section {
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+}
+.sign-up-image {
+    width: 55%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign-up-image img {
+    max-width: 55%;
+    height: auto;
+
+}
+.social-section {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-section h5 {
+    width: 70%;
+    padding-top: 9%;
+    font-size: 250%;
+    text-align: left;
+}
+.sign-up-section {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 2%;
+}
+.row-social {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sign-up-form-section {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+}
+.sign-up-form-section h5 {
+    font-weight: bold;
+}
+.sign-up-form-section form {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+    gap: 10%;
+}
+.sign-up-form-section .sign-up-button {
+    width: 4rem;
+    height: 2rem;
+}
+
+
+
+
+/* -Popular Courses Section- */
+
+.popular {
+    height: 14%;
+    background-color: skyblue;
+}
+
+
+/* -Start Coding Section- */
+
+.start-coding {
+    height: 13.5%;
+    background-color: cornsilk;
+}
+
+
+/* -Where to Start Section- */
+
+.where-to-start {
+    height: 13.5%;
+    background-color: honeydew;
+}
+
+
+/* -Stories Section- */
+
+.stories {
+    height: 13.5%;
+    background-color: lavender;
+}
+
+
+/* -Join In Section- */
+
+.join-in {
+    height: 3.5%;
+    background-color: lightyellow;
+}
+
+
+/* -Business Section- */
+
+.business {
+    height: 13.5%;
+    background-color: lightpink;
+}
+
+
+/* -Start Free Section- */
+
+.start-free {
+    height: 13.5%;
+    background-color: powderblue;
+}
+
+
+/* Footer */
+
+footer {
+    height: 18%;
+    background-color: lightcyan;
 }
