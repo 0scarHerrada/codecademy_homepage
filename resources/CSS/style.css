@@ -4,13 +4,19 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
     font-size: 16px;
     box-sizing: border-box;
 }
 
 body {
-    height: 300rem;
+    height: 350rem;
     width: 100%;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Regular.ttf");
 }
 
 
@@ -38,7 +44,7 @@ main {
 /* -Sign Up Section- */
 
 .sign-up {
-    height: 15%;
+    height: 12.5%;
     background-color: aliceblue;
     color: black;
     display: flex;
@@ -71,6 +77,7 @@ main {
     max-width: 75%;
     height: auto;
     border-radius: 5%;
+    border: cornflowerblue solid 3px;
 
 }
 .social-section {
@@ -200,15 +207,183 @@ main {
 /* -Popular Courses Section- */
 
 .popular {
-    height: 14%;
-    background-color: skyblue;
+    height: 14.5%;
+    background-color: #012864;
+    display: flex;
+    flex-direction: column;
 }
-
+.popular-text {
+    height: 15%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+}
+.popular-text h2 {
+    font-size: 2.5rem;
+}
+.popular-text h3 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.popular-courses-section {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.popular-courses-text {
+    height: 12%;
+    width: 45%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.popular-courses-text div{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.courses-text {
+    width: 20%;
+}
+.courses-text-dynamic-bar {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dynamic-bar {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.db1 {
+    width: 20%;
+    height: 100%;
+    background-color: gold;
+}
+.db2 {
+    width: 20%;
+    height: 100%;
+}
+.db3 {
+    width: 20%;
+    height: 100%;
+}
+.db4 {
+    width: 20%;
+    height: 100%;
+}
+.db5 {
+    width: 20%;
+    height: 100%;
+}
+.flat-bar {
+    height: 40%;
+    width: 100%;
+    background-color: aliceblue;
+}
+.courses-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 75%;
+}
+.courses-card {
+    height: 100%;
+    width: 22.5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: black solid 1px;
+    border-radius: 2%;
+    padding: 0.1%;
+}
+.card-title {
+    height: 12%;
+    width: 100%;
+    border-radius: 6% 6% 0 0;
+    background-color: #012864;
+    color: aliceblue;
+    padding: 2.5% 0 0 4%;
+    letter-spacing: 1px;
+}
+.card-description {
+    height: 53%;
+    padding: 4%;
+}
+.card-details {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.card-details div {
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+}
+.difficulty-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.difficulty-div section {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.card-details p {
+    font-size: 0.9rem;
+}
+.card-details strong {
+    font-size: 0.9rem;
+}
+.certification {
+    max-width: 100%;
+    max-height: 65%;
+}
+.difficulty {
+    max-width: 13%;
+    max-height: 70%;
+}
+.popular-courses-button {
+    width: 12%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    border-radius: 5%;
+}
+.popular-courses-button a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 0.9rem;
+    letter-spacing: 0.075rem;
+    color: #012864;
+}
 
 /* -Start Coding Section- */
 
 .start-coding {
-    height: 13.5%;
+    height: 14%;
     background-color: cornsilk;
 }
 
@@ -216,7 +391,7 @@ main {
 /* -Where to Start Section- */
 
 .where-to-start {
-    height: 13.5%;
+    height: 14%;
     background-color: honeydew;
 }
 
@@ -224,7 +399,7 @@ main {
 /* -Stories Section- */
 
 .stories {
-    height: 13.5%;
+    height: 14%;
     background-color: lavender;
 }
 
@@ -240,7 +415,7 @@ main {
 /* -Business Section- */
 
 .business {
-    height: 13.5%;
+    height: 14%;
     background-color: lightpink;
 }
 
