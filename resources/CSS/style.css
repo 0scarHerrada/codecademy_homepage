@@ -8,12 +8,10 @@
     font-size: 16px;
     box-sizing: border-box;
 }
-
 body {
     height: 350rem;
     width: 100%;
 }
-
 @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto-Regular.ttf");
@@ -24,7 +22,7 @@ body {
 /* Header */
 
 header {
-    height: 1.5%;
+    height: 1.25%;
     background-color: aquamarine;
 }
 
@@ -33,10 +31,9 @@ header {
 /* Main */
 
 main {
-    height: 81%;
+    height: 81.25%;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -56,30 +53,6 @@ main {
     height: 90%;
     padding: 0 12% 0 12%;
 }
-.main-text-social {
-    height: 75%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.sign-up-image {
-    width: 45%;
-    height: auto;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.sign-up-image img {
-    max-width: 75%;
-    height: auto;
-    border-radius: 5%;
-    border: cornflowerblue solid 3px;
-
-}
 .social-section {
     width: 55%;
     display: flex;
@@ -87,18 +60,21 @@ main {
     justify-content: space-between;
     align-items: center;
 }
-.social-section h5 {
+.main-text-social {
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-text-social h5 {
     height: 70%;
     width: 65%;
     display: flex;
     flex-direction: column;
-    font-size: 190%;
+    font-size: 1.9rem;
     text-align: left;
     padding: 10% 6% 0 14%;
-}
-.social-section p {
-    font-size: 1.25rem;
-    font-weight: 800;
 }
 .sign-up-section {
     height: 35%;
@@ -107,7 +83,13 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-
+}
+.row-social {
+    width: 65%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .social-image-container {
     height: 92%;
@@ -125,18 +107,13 @@ main {
     max-width: 100%;
     max-height: 100%;
 }
-.row-social {
-    width: 65%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .join-using {
     height: 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 800;
     text-align: center;
 }
 .sign-up-form-section {
@@ -146,18 +123,6 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-}
-.sign-up-form-section  section{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.sign-up-form-section h5 {
-    font-size: 1rem;
-    font-weight: bold;
-    width: 20%;
 }
 .sign-up-form-section form {
     height: 100%;
@@ -169,7 +134,14 @@ main {
     justify-content: center;
     padding: 0 4% 0 9%;
 }
-.sign-up-form-section div {
+.sign-up-form-section form section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sign-up-form-section form section div {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -178,18 +150,36 @@ main {
     height: 60%;
     gap: 1%;
 }
-.sign-up-form-section div input {
+.sign-up-form-section form section div input {
     height: 90%;
     width: 70%;
     border: black solid 0.08rem;
 }
-.sign-up-form-section form .sign-up-button {
+.sign-up-button {
     height: 40%;
     width: 20%;
     border: none;
     border-radius: 5%;
     color: white;
     background-color: #012864;
+}
+.sign-up-image {
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.sign-up-image img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+    border: cornflowerblue solid 3px;
+
 }
 .terms-of-service {
     height: 10%;
@@ -226,6 +216,7 @@ main {
 }
 .popular-text h3 {
     font-size: 1rem;
+    font-weight: 200;
     letter-spacing: 2px;
 }
 .popular-courses-section {
@@ -238,7 +229,7 @@ main {
 }
 .popular-courses-text {
     height: 12%;
-    width: 45%;
+    width: 54%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -254,6 +245,11 @@ main {
 }
 .courses-text {
     width: 20%;
+}
+.courses-text p {
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .courses-text-dynamic-bar {
     width: 100%;
@@ -311,6 +307,9 @@ main {
     border-radius: 2%;
     padding: 0.1%;
 }
+.courses-card h3 , p , strong {
+    font-family: 'Open Sans';
+}
 .card-title {
     height: 12%;
     width: 100%;
@@ -319,6 +318,10 @@ main {
     color: aliceblue;
     padding: 2.5% 0 0 4%;
     letter-spacing: 1px;
+}
+.card-title p {
+    font-family: serif;
+
 }
 .card-description {
     height: 53%;
@@ -380,11 +383,87 @@ main {
     color: #012864;
 }
 
+
+
 /* -Start Coding Section- */
 
 .start-coding {
     height: 14%;
     background-color: cornsilk;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #012864;
+    gap: 5%;
+}
+.start-coding-img-container {
+    height: 75%;
+    width: 25%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.start-coding-img-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5%;
+    border: #012864 solid 2px;
+}
+.start-coding-text-section {
+    height: 65%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10%;
+}
+.start-coding-text-section h2 {
+    font-size: 2.5rem;
+    font-family: "Open Sans";
+}
+.start-coding-text-section p {
+    font-size: 1.5rem;
+    font-family: "Open Sans";
+}
+.start-coding-button-section {
+    height: 10%;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.start-coding-button {
+    width: 50%;
+    height: 95%;
+    background-color: #012864;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.start-coding-button.right {
+    background-color: cornsilk;
+    border: #012864 solid 2px;
+    border-radius: 5%;
+}
+.start-coding-button.left a {
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.start-coding-button.right a {
+    color: #012864;
+    text-decoration: none;
+    font-size: 1rem;
 }
 
 
