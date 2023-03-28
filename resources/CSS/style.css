@@ -31,7 +31,7 @@ header {
 /* Main */
 
 main {
-    height: 81.25%;
+    height: 86.75%;
     display: flex;
     flex-direction: column;
 }
@@ -61,31 +61,49 @@ main {
     align-items: center;
 }
 .main-text-social {
-    height: 75%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-text-social h5 {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    text-align: center;
+}
+.main-signup {
+    height: 50%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.main-text-social h5 {
-    height: 70%;
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    font-size: 1.9rem;
-    text-align: center;
-    padding: 10% 6% 0 14%;
-}
 .sign-up-section {
-    height: 35%;
-    width: 35%;
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.join-in-section {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .sign-up-section p {
     font-size: 1.1rem;
+    margin-bottom: 7%;
 }
 .row-social {
     width: 65%;
@@ -93,6 +111,9 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.bottom-row-social {
+    margin-bottom: 14%;
 }
 .social-image-container {
     height: 92%;
@@ -111,15 +132,11 @@ main {
     max-height: 100%;
 }
 .join-using {
-    height: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-size: 1.1rem;
-    text-align: center;
+    margin-bottom: 5%;
 }
 .sign-up-form-section {
-    height: 20%;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -134,13 +151,13 @@ main {
     text-align: left;
     align-items: center;
     justify-content: center;
-    padding: 0 4% 0 9%;
+    gap: 10%;
 }
 .sign-up-form-section form section{
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .sign-up-form-section form section div {
@@ -148,9 +165,12 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 95%;
     height: 60%;
     gap: 1%;
+}
+.sign-up-form-section form section div label {
+    width: 30%;
 }
 .sign-up-form-section form section div input {
     height: 90%;
@@ -159,29 +179,43 @@ main {
 }
 .sign-up-button {
     height: 40%;
-    width: 20%;
+    width: 65%;
     border: none;
     border-radius: 5%;
     color: white;
     background-color: #012864;
+    align-self: flex-end;
+    margin-right: 3%;
 }
 .sign-up-image {
     width: 45%;
     height: auto;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 .sign-up-image img {
     max-width: 75%;
+    height: 50%;
+    display: block;
+    border: cornflowerblue solid 2px;
+    z-index: 1;
+}
+.z-image {
+    position: absolute;
+    height: auto;
+    width: 23.5%;
+    margin-top: 2.5%;
+    margin-left: 2%;
+    border: black;
+    overflow: hidden;
+}
+.z-image img {
+    max-width: 100%;
     height: auto;
     display: block;
-    border-radius: 5%;
-    border: cornflowerblue solid 3px;
-
+    border: none;
 }
 .terms-of-service {
     height: 10%;
@@ -199,7 +233,7 @@ main {
 /* -Popular Courses Section- */
 
 .popular {
-    height: 14.5%;
+    height: 15.5%;
     background-color: #012864;
     display: flex;
     flex-direction: column;
@@ -390,13 +424,13 @@ main {
 /* -Start Coding Section- */
 
 .start-coding {
-    height: 13%;
-    background-color: cornsilk;
+    height: 15%;
+    background-color: #e7e5de;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    color: #012864;
+    color: #523d2a;
     gap: 5%;
 }
 .start-coding-img-container {
@@ -413,7 +447,7 @@ main {
     height: auto;
     display: block;
     border-radius: 5%;
-    border: #012864 solid 2px;
+    border: #99826c solid 2px;
 }
 .start-coding-text-section {
     height: 65%;
@@ -445,7 +479,7 @@ main {
 .start-coding-button {
     width: 50%;
     height: 95%;
-    background-color: #012864;
+    background-color: #99826c;
     border-radius: 5%;
     display: flex;
     flex-direction: row;
@@ -453,17 +487,17 @@ main {
     align-items: center;
 }
 .start-coding-button.right {
-    background-color: cornsilk;
-    border: #012864 solid 2px;
+    background-color: #e7e5de;
+    border: #99826c solid 2px;
     border-radius: 5%;
 }
 .start-coding-button.left a {
-    color: cornsilk;
+    color: #e7e5de;
     text-decoration: none;
     font-size: 1rem;
 }
 .start-coding-button.right a {
-    color: #012864;
+    color: #523d2a;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -502,7 +536,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5%;
 }
 .where-to-start-text {
     height: 50%;
@@ -543,7 +576,7 @@ main {
 /* -Stories Section- */
 
 .stories {
-    height: 18%;
+    height: 19%;
     background-color: honeydew;
     display: flex;
     flex-direction: row;
@@ -577,6 +610,7 @@ main {
     align-items: center;
     padding: 2%;
     gap: 5%;
+    border: black solid 1px;
 }
 .tl , .br {
     height: 100%;
@@ -613,20 +647,23 @@ main {
     height: 100%;
     width: 35%;
     overflow: hidden;
+    border-bottom: black solid 1px;
 }
 .tr , .bl {
     height: 100%;
     width: 50%;
 }
 .right-image img, .left-image img {
-    max-width: 65%;
+    max-width: 68%;
     height: auto;
     display: block;
+    border: black solid 1px;
 }
 .top-image img ,  .bottom-image img {
     max-width: 100%;
     height: auto;
     display: block;
+    border: black solid 1px;
 }
 .stories-text-and-button {
     height: 90%;
@@ -652,9 +689,10 @@ main {
     font-size: 1.1rem;
 }
 .stories-button {
-    height: 22.5%;
-    width: 45%;
+    height: 18%;
+    width: 40%;
     background-color: darkseagreen;
+    border: black solid 1px;
 }
 .stories-button a {
     height: 100%;
@@ -687,7 +725,10 @@ main {
 
 .join-in {
     height: 3%;
-    background-color: lightyellow;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .join-in-div {
     height: 95%;
@@ -696,6 +737,37 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+.join-in-div div {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.join-in-image {
+    height: 10%;
+    width: 30%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.join-in-image img {
+    height: auto;
+    display: block;
+}
+.students {
+    max-width: 65%;
+}
+.world {
+    max-width: 65%;
+}
+.file {
+    max-width: 65%;
+    padding-right: 30%;
 }
 .join-in-div h3 {
     font-size: 2rem;
@@ -783,20 +855,19 @@ main {
 /* -Start Free Section- */
 
 .start-free {
-    height: 15%;
+    height: 16%;
     background-color: #020403;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .start-free-section {
-    height: 75%;
-    width: 80%;
+    height: 95%;
+    width: 87%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2.5%;
 }
 .start-free-section h2 {
     height: 25%;
@@ -807,18 +878,9 @@ main {
     justify-content: center;
     align-items: flex-start;
 }
-.start-free-image-section {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 7.5%;
-}
 .start-free-image {
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 50%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -828,22 +890,242 @@ main {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 100%;
+    border: white solid 2px;
 }
-.start-free-image-section p {
-    font-size: 1.1rem;
+.start-free-section section {
+    height: 55%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.75%;
+}
+.start-free-section section section {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.start-free-section section section div {
+    height: 25%;
+    width: 25%;
+}
+.start-free-section section h2 {
+    height: 13%;
+    width: 100%;
+}
+.start-free-section section p {
+    width: 80%;
+    font-size: 1.2rem;
     color: white;
     text-align: center;
 }
-.start-free-image-section a {
-    font-size: 1.2rem;
-    color: #d2d5de;
+.start-free-button {
+    height: 35%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4%;
+}
+.start-free-button a {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
     letter-spacing: 1px;
+    color: black;
 }
 
 
 /* Footer */
 
 footer {
-    height: 17%;
-    background-color: lightcyan;
+    height: 12%;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer {
+    height: 92%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-left-footer {
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.top-footer-divider {
+    height: 90%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer-divider div {
+    height: 100%;
+    width: 1%;
+    background-color: black;
+}
+.top-right-footer {
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+}
+.tf-column {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10%;
+}
+.codecademy-logo-column {
+    justify-content: space-between;
+}
+.footer-social {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-social div {
+    height: 25%;
+    width: 20%;
+    overflow: hidden;
+}
+.footer-social div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.footer-codecademy {
+    width: 70%;
+    overflow: hidden;
+}
+.footer-codecademy img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/*
+.tf-column div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+*/
+.tf-column div h5 {
+    margin-bottom: 10%;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+.tf-column div p {
+    margin-bottom: 5%;
+    font-size: 0.9rem;
+}
+.trf-divider {
+    letter-spacing: -1px;
+    margin-bottom: 5%;
+}
+.footers-divider {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    align-items: flex-start;
+}
+.mobile {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top-footer-mobile {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.app-store {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+.app-store img {
+    max-width: 66%;
+    height: auto;
+    display: block;
+    border-radius: 7%;
+}
+.google-play {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+.google-play img {
+    max-width: 78%;
+    height: auto;
+    display: block;
+    border-radius: 7%;
+}
+.footers-divider div {
+    height: 10%;
+    width: 100%;
+    background-color: black;
+}
+.bottom-footer {
+    height: 6%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-block {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    padding: 1%;
+}
+.bottom-left-footer{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1%;
+}
+.bottom-right-footer{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.bottom-block p {
+    font-size: 0.9rem;
 }
