@@ -1,0 +1,151 @@
+
+<footer>
+	<section class="top-footer">
+		<section class="top-left-footer">
+			<section class="tlf-left-list">
+				<div>
+					<a><h5>Company</h5></a>
+				</div>		
+				<div>	
+					<a><p>About</p></a>
+					<a><p>Careers</p></a>
+					<a><p>Affiliates</p></a>
+				</div>
+				<div>
+					<a><img></a>
+					<a><img></a>
+					<a><img></a>
+					<a><img></a>
+				</div>
+				<div>
+					<a><img></a>
+				</div>
+			</section>
+			<section>
+				<section>
+					<a><h5>Resources</h5></a>
+					<div>	
+						<a><p>Articles</p></a>
+						<a><p>Blog</p></a>
+						<a><p>Cheatsheets</p></a>
+						<a><p>Code Challenges</p></a>
+						<a><p>Docs</p></a>
+						<a><p>Projects</p></a>
+						<a><p>Videos</p></a>
+						<a><p>Workspaces</p></a>
+					</div>
+				<section>
+					<a><h5>Support</h5></a>
+					<div>
+						<a><p>Help Center</p></a>
+					</div>
+				</section>
+			</section>
+			<section>
+				<section>
+					<a><h5>Plans</h5></a>
+					<div>	
+						<a><p>Paid memberships</p></a>
+						<a><p>For students</p></a>
+						<a><p>Business solutions</p></a>
+					</div>
+				<section>
+					<a><h5>Community</h5></a>
+					<div>
+						<a><p>Forums</p></a>
+						<a><p>Chapters</p></a>
+						<a><p>Events</p></a>
+						<a><p>Refer a friend</p></a>
+						<a><p>Discord</p></a>
+					</div>
+				</section>
+			</section>
+		</section>
+		<section class="top-footer-divider">
+			<div></div>
+		</section>
+		<section class="top-right-footer">
+			<section class="trf-left-list>
+				<a><h5>Subjects</h5></a>
+				<div>
+					<a><p>AI</p></a>
+					<a><p>Cloud Computing</p></a>
+					<a><p>Code Foundations</p></a>
+					<a><p>Computer Science</p></a>
+					<a><p>Cybersecurity</p></a>
+					<a><p>Data Analytics</p></a>
+					<a><p>Data Science</p></a>
+					<a><p>Data Visualization</p></a>
+					<a><p>Developer Tools</p></a>
+					<a><p>DevOps</p></a>
+					<a><p>game Development</p></a>
+					<a><p>IT</p></a>
+					<a><p>Machine Learning</p></a>
+					<a><p>Math</p></a>
+					<a><p>Mobile Development</p></a>
+					<a><p>Web Design</p></a>
+					<a><p>Web Development</p></a>
+				</div>
+			</section>
+			<section>
+				<a><h5>Languages</h5></a>
+				<div>
+					<a><p>Bash</p></a>
+					<a><p>C</p></a>
+					<a><p>C++</p></a>
+					<a><p>C#</p></a>
+					<a><p>Go</p></a>
+					<a><p>HTML & CSS</p></a>
+					<a><p>Java</p></a>
+					<a><p>JavaScript</p></a>
+					<a><p>Kotlin</p></a>
+					<a><p>PHP</p></a>
+					<a><p>Python</p></a>
+					<a><p>R</p></a>
+					<a><p>Ruby</p></a>
+					<a><p>SQL</p></a>
+					<a><p>Swift</p></a>
+				</div>
+			</section>
+			<section>
+				<section>
+					<a><h5>Career building</h5></a>
+					<div>	
+						<a><p>Career Paths</p></a>
+						<a><p>Career Services</p></a>
+						<a><p>Interview Prep</p></a>
+						<a><p>Proffesional Certification</p></a>
+						<div class='trf-divider></div>
+						<a><p>Full Catalog</p></a>
+						<a><p>Beta Content</p></a>
+						<a><p>Roadmap</p></a>
+					</div>
+				</section>
+				<section>
+					<a><h5>Mobile</h5></a>
+					<div>
+						<a><img></a>
+						<a><img></a>
+					</div>
+				</section>
+			</section>
+		</section>
+	</section>
+	<section class="bottom-footer">
+		<div>
+			<a><p>Privacy Policy</p></a>
+			<p>|</p>
+			<a><p>Cookie Policy</p></a>
+			<p>|</p>
+			<a><p>Do Not Sell My Personal Information</p></a>
+			<p>|</p>
+			<a><p>Terms</p></a>
+		</div>
+		<div>
+			<p>Made with</p>
+			<img>
+			<p>in NYC @ 2023 Codecademy</p>
+		</div>
+	</section>
+</section>
+				

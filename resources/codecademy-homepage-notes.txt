@@ -1,0 +1,97 @@
+
+codecademy homepage
+
+
+sign-up section
+
+	run sign-up boxes on baseline
+
+	wide image set above
+
+
+popular courses
+
+	keep
+
+
+start coding in seconds section
+
+	text in center
+
+	code-editor - left image
+
+	development cycle or languages - right image 
+	
+
+
+not sure where to start section
+
+	flip
+
+	change image to 'helping hand' or 'guide'/'guidance'
+
+
+stories from people section
+
+	text to left
+
+	images in (left,up,right,down) diamond
+
+	descriptive text (top-left-diag,top-right-diag,bottom-right-diag,bottom-left-diag) square fitted with diamond to complete a full square
+
+
+
+join in section
+
+	remove right text
+
+	shrink banner
+
+	text run flex with values
+
+
+
+business section
+
+	text in upper right
+
+	change image to show 'leveling up' towards button
+
+
+
+start for free section
+
+	set text to flex-end
+
+	remove images
+
+	maintain relative size in comparison to other sections
+
+	change to a more 'inviting' color
+
+
+
+footer
+
+	keep
+
+
+
+
+
+
+Colors
+
+	nude - banner/'background color'
+
+	dark blue - main color - banners - used on career cards
+
+	medium blue - main color -  banner
+
+	solid blue - main color - banner and buttons
+
+	yellow - secondary color - banner and buttons
+
+	celery green - accent color - used on free course cards
+
+	sky blue - accent color - used on skill cards
